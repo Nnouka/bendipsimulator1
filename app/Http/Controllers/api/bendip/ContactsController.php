@@ -36,7 +36,9 @@ class ContactsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'line_number' => 'required'
+        ]);
     }
 
     /**
