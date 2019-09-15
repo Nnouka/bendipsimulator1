@@ -19,3 +19,7 @@ Route::group(['prefix' => 'api/bendip', 'middleware' => 'cors'], function (){
     Route::resource('/contacts', 'api\bendip\ContactsController');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
