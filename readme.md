@@ -13,3 +13,5 @@ This Api Simulates WhatsApp like contacts
 | DELETE	| /api/bendip/contacts/{id}	| Deletes a contact for the given {id} |
 
 Use postman to test these endpoint before consuming the API
+
+A version of the application is running on heroku @ [bendipsimulator3](http://bendipsimulator3.herokuapp.com "Bendip's Homepage")
